@@ -1,3 +1,9 @@
+<div align="center">
+    <img src="Rangkosh.png" width="850">
+</div>
+
+
+
 ## 📝 Data Entry Rules for Inorganic Material Color Prediction GUI
 
 Follow these rules to ensure smooth and accurate data entry using the GUI:
