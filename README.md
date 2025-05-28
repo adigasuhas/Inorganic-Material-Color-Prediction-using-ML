@@ -1,5 +1,5 @@
 <div align="center">
-    <img src="Rangkosh.png" width="850">
+    <img src="Rangkosh.png" width="950">
 </div>
 
 
