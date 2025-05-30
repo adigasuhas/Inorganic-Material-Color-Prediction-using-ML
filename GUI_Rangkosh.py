@@ -465,7 +465,7 @@ lattice_parameter_b.place(x = 80, y = 1167)
 # Warning
 
 warning = Label(window,
-	text = 'Cubic and Trigonal → a = b = c',
+	text = 'Cubic → a = b = c',
 	font = ('Nunito', 9 , 'bold'),
 	bg =BG_COLOR, 
 	fg ='#900000',
@@ -485,7 +485,7 @@ warning_1 = Label(window,
 warning_1.place(x = 280, y = 1167)
 
 warning_2 = Label(window,
-	text = 'Tetragonal and Hexagonal → a = b ≠ c',
+	text = 'Trigonal, Tetragonal and Hexagonal → a = b ≠ c',
 	font = ('Nunito', 9 , 'bold'),
 	bg =BG_COLOR, 
 	fg ='#900000',
@@ -674,7 +674,7 @@ def entry_to_csv():
     if crystal_system_entry == 'Trigonal':
     	lattice_parameter_a_entry = lattice_parameter_a.get()
     	lattice_parameter_b_entry = lattice_parameter_a_entry
-    	lattice_parameter_c_entry = lattice_parameter_a_entry
+    	lattice_parameter_c_entry = lattice_parameter_c.get()
 
 
     # Prepare new row as a DataFrame
